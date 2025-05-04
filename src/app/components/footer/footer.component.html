@@ -1,0 +1,31 @@
+
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>{{user.firstName}}'s Portfolio</h3>
+      <p>​कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।<br/>शिव: सदा सहायते<br/><br/>Keep Rising 🚀. God Speed!</p>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+      <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+      <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+      <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+      <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+    </div>
+    <div class="box">
+      <h3>Contact Info</h3>
+      <p> <i class="fas fa-envelope"></i>{{user.email}}</p>
+      <p> <i class="fas fa-map-marked-alt"></i>{{user.place}}</p>
+      <div class="share">
+        <a href="{{user.linkedIn}}" class="fab fa-linkedin" target="_blank"></a>
+        <a href="{{user.github}}" class="fab fa-github" target="_blank"></a>
+        <a href="mailto:{{user.email}}" class="fas fa-envelope" target="_blank"></a>
+        <a href="{{user.twitter}}" class="fab fa-twitter" target="_blank"></a>
+        <!-- <a href="https://medium.com/@Yashjawa" class="fa-brands fa-medium" target="_blank"></a> -->
+      </div>
+    </div>
+  </div>
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="{{user.linkedIn}}"> {{user.fullname}}</a></h1>
+</section>

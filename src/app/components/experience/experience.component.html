@@ -1,0 +1,21 @@
+<section class="experience" id="experience">
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+  <div class="timeline">
+    <div class="container" *ngFor="let experience of myExperience; let i = index" [ngClass]="i % 2 === 0 ? 'left' : 'right'">
+      <div class="content">
+        <div class="tag">
+          <h2>{{experience.company}}</h2>
+        </div>
+        <div class="desc">
+            <h3>{{experience.title}}</h3>
+            <p>{{experience.duration}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+</section>
