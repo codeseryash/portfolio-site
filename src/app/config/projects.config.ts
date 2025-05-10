@@ -12,8 +12,8 @@ export interface Project {
 export const Projects: Project[] = [
   {
     "name": "Moment Captcha",
-    "desc": "Moment Captcha is a simple and easy to use app. which allows user to select the favourite photos. Inspiration came to sort my own wedding photos.",
-    "image": "pswd",
+    "desc": "Moment Captcha is a simple and easy to use app. which allows user to select the favourite photos.",
+    "image": "momentCaptcha",
     "category": "webapp",
     "links": {
       "view": "https://codeseryash.github.io/MomentCaptcha/",
@@ -37,6 +37,16 @@ export const Projects: Project[] = [
     "category": "webapp",
     "links": {
       "view": "https://algo-exodus.netlify.app/",
+      "code": "https://github.com/er-yash-arora"
+    }
+  },
+  {
+    "name": "EmailJS Contact Form",
+    "desc": "Contact form using EmailJS. It allows you to send emails directly from your web application without needing a backend server.",
+    "image": "emailJs",
+    "category": "Integration",
+    "links": {
+      "view": "https://codeseryash.github.io/portfolio-site/browser/#contact",
       "code": "https://github.com/er-yash-arora"
     }
   }
