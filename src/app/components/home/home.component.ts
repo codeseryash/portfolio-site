@@ -36,7 +36,7 @@ export class HomeComponent implements AfterViewInit {
     }
 
   ngAfterViewInit(): void {const options = {
-      strings: ['Software Engineer', '.net Technology ', 'Backend Developer ', 'Third Party Integration', 'Articles', 'Research papers', 'Writing', 'Leadership', 'Ideation'],
+      strings: ['.net Technology                                 '],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true

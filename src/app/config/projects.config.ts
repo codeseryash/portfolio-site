@@ -50,4 +50,15 @@ export const Projects: Project[] = [
       "code": "https://github.com/er-yash-arora"
     }
   }
+  ,
+  {
+    "name": "PortFolio Site",
+    "desc": "This is my portfolio site. It showcases my skills, projects, and experience.",
+    "image": "portfolio",
+    "category": "webapp",
+    "links": {
+      "view": "https://codeseryash.github.io/portfolio-site/browser/#home",
+      "code": "https://github.com/codeseryash/portfolio-site"
+    }
+  }
 ]
