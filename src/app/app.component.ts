@@ -26,7 +26,7 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     if (isPlatformBrowser(this.platformId)) {
-      this.appendCursorAnimationCss();
+      //this.appendCursorAnimationCss();
     }
 
   }
