@@ -1,0 +1,79 @@
+{
+  "hash": "0319239e",
+  "configHash": "d92eabb1",
+  "lockfileHash": "199a59a3",
+  "browserHash": "ba743fa8",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "8c4c1d3d",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "7f13a44f",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "4302eee4",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "5535cbef",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "58c42bcb",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "888ed40e",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../../../../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "523d2148",
+      "needsInterop": false
+    },
+    "typed.js": {
+      "src": "../../../../../../node_modules/typed.js/dist/typed.module.js",
+      "file": "typed__js.js",
+      "fileHash": "b687fb7d",
+      "needsInterop": false
+    },
+    "vanilla-tilt": {
+      "src": "../../../../../../node_modules/vanilla-tilt/lib/vanilla-tilt.js",
+      "file": "vanilla-tilt.js",
+      "fileHash": "e5bf579f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-H7CDQJNS": {
+      "file": "chunk-H7CDQJNS.js"
+    },
+    "chunk-YYMRMDH2": {
+      "file": "chunk-YYMRMDH2.js"
+    },
+    "chunk-3MOR52ZW": {
+      "file": "chunk-3MOR52ZW.js"
+    },
+    "chunk-MMHIYKTQ": {
+      "file": "chunk-MMHIYKTQ.js"
+    },
+    "chunk-3OV72XIM": {
+      "file": "chunk-3OV72XIM.js"
+    }
+  }
+}
