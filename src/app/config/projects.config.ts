@@ -39,5 +39,16 @@ export const Projects: Project[] = [
       "view": "https://algo-exodus.netlify.app/",
       "code": "https://github.com/er-yash-arora"
     }
+  },
+  {
+    "name": "Knight Adventure 🐴",
+    "desc": "A fun web board game where you move like a knight in chess and try to visit all squares without repeating.",
+    "image": "knight-game",
+    "category": "webapp",
+    "links": {
+      "view": "https://codeseryash.github.io/KnightAdventure/",
+      "code": "https://github.com/codeseryash/KnightAdventure"
+    }
   }
+
 ]
